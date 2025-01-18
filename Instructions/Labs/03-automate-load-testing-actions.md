@@ -182,15 +182,15 @@ lab:
 
     | 名称 | 机密 |
     |--|--|
-    | AZURE_CLIENT_ID | 输入之前在实验室中保存的**应用程序（客户端）ID**。 |
-    | AZURE_TENANT_ID | 输入之前在实验室中保存的**目录（租户）ID**。 |
-    | AZURE_SUBSCRIPTION_ID | 输入之前在实验室中保存的订阅 ID 值。 |
+    | `AZURE_CLIENT_ID` | 输入之前在实验室中保存的**应用程序（客户端）ID**。 |
+    | `AZURE_TENANT_ID` | 输入之前在实验室中保存的**目录（租户）ID**。 |
+    | `AZURE_SUBSCRIPTION_ID` | 输入之前在实验室中保存的订阅 ID 值。 |
 
 ### 任务 2：部署 Web 应用
 
 1. 选择 *.github/workflows* 文件夹中的 *deploy.yml* 文件。
 
-1. 编辑文件，并在 **env:** 部分中更改变量 `AZURE_WEB_APP` 的值。 将 `<your web app name>**` 替换为之前在本实验室中创建的 Web 应用的名称。 提交更改。
+1. 编辑文件，并在 **env:** 部分中更改变量 `AZURE_WEB_APP` 的值。 将 `<your web app name>` 替换为之前在本实验室中创建的 Web 应用的名称。 提交更改。
 
 1. 花些时间查看工作流的内容。
 
