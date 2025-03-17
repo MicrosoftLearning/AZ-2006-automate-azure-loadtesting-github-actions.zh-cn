@@ -97,7 +97,7 @@ lab:
     ```
     rgId=$(az group show -n az2006-rg --query "id" -o tsv)
 
-    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId
+    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId --json-auth true
     ```
 
     >**重要提示：** 该命令将输出一个 JSON 对象，其中包含用于以 Microsoft Entra 标识（服务主体）的名称对 Azure 进行身份验证的标识符。 复制 JSON 对象，以便在以下步骤中使用。 
